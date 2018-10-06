@@ -59,6 +59,7 @@ namespace AlquilerCoche
             if (!driversLicense || age < 18)
             {
                 Console.WriteLine("No puedes alquilar un coche.");
+                Console.ReadLine();
             }
             else
             {
